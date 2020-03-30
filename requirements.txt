@@ -35,7 +35,7 @@ Click==7.0
 cloudpickle==1.2.2
 clyent==1.2.2
 colorama==0.4.1
-conda==4.8.2
+conda==4.8.3
 conda-build==3.18.9
 conda-package-handling==1.6.0
 conda-verify==3.4.2
@@ -48,6 +48,7 @@ dask==2.5.2
 decorator==4.4.0
 defusedxml==0.6.0
 distributed==2.5.2
+dj-database-url==0.5.0
 Django==2.2
 django-admin==2.0.0
 django-allauth==0.41.0
@@ -56,6 +57,7 @@ django-bootstrap4==1.1.1
 django-colorfield==0.2.1
 django-excel-response2==2.0.8
 django-geoposition==0.3.0
+django-heroku==0.3.1
 django-location-field==2.1.0
 django-six==1.0.4
 docutils==0.15.2
@@ -74,8 +76,10 @@ gevent==1.4.0
 glob2==0.7
 gmpy2==2.0.8
 greenlet==0.4.15
+gunicorn==20.0.4
 h5py==2.9.0
 HeapDict==1.0.1
+heroku==0.1.4
 html5lib==1.0.1
 idna==2.8
 imageio==2.6.0
@@ -152,6 +156,7 @@ ply==3.11
 prometheus-client==0.7.1
 prompt-toolkit==2.0.10
 psutil==5.6.3
+psycopg2==2.8.4
 psycopg2-binary==2.8.4
 ptyprocess==0.6.0
 py==1.8.0
@@ -174,7 +179,7 @@ pytest-astropy==0.5.0
 pytest-doctestplus==0.4.0
 pytest-openfiles==0.4.0
 pytest-remotedata==0.3.2
-python-dateutil==2.8.0
+python-dateutil==1.5
 python3-openid==3.1.0
 pytz==2018.5
 PyWavelets==1.0.3
@@ -228,6 +233,7 @@ virtualenv==16.7.9
 wcwidth==0.1.7
 webencodings==0.5.1
 Werkzeug==0.16.0
+whitenoise==5.0.1
 widgetsnbextension==3.5.1
 wrapt==1.11.2
 wurlitzer==1.0.3
